@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+#top {
+  background: lightgrey;
+  height: 15%;
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#logo img {
+  padding-left: 5%;
+  max-width: 20%;
+  padding-top: 1.5%;
+}
+
+
+#mission {
+  background-image: url("../img/MedDevCo Background.jpg");
+  background-attachment: fixed;  
+  height: 90%;
+  -webkit-background-size: cover;
+  background-color: grey; 
+}
+
+
+#tagline {
+    padding-top: 10%;
+    font-size: 5em;
+    line-height: 1.3em;
+    color: white;
+    text-align: center;
+    display: block;
+    float: center;
+    font-family: Abel;
+    text-shadow: 3px 3px #000021;
+  }
+
+#blurb {
+  height: 60vh;
+  background: white;
+  text-align: center;
+  font-size: 2em;
+  max-width: 1050px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+#blurb h1 {
+  font-family: Abel;
+  font-size: 2.5em;
+}
+
+#blurb p {
+  font-family: Lato;
+}
+
+#team {
+  height: 200vh;
+  background: #001146;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#team h1 {
+  font-family: Abel;
+  font-size: 5em;
+}
+
+.gallery {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery div {
+  font-family: Lato;
+  font-size: 1.3em;
+  max-width: 43%;
+}
+
+.ron {
+  padding-left: 5%;
+}
+
+#ron img {
+  max-width: 45%;
+  padding-left: 5%;
+  float: left;
+}
+
+#ron h4 {
+  text-align: left;
+  padding-left: 2%;
+}
+
+
+.avijit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 5%;
+  text-align: left;
+}
+
+#avijit img {
+  max-width: 45%;
+  padding-left: 5%;
+  float: left;
+}
+
+#avijit h4 {
+  text-align: left;
+  padding-left: 2%;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 20%;
+  padding-top: 5%;
+}
+
+footer img {
+  max-width: 30%
+}
