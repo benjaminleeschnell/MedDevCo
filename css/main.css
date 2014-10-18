@@ -7,7 +7,7 @@ html {
 }
 
 #top {
-  background: lightgrey;
+  background: snow;
   height: 15%;
 }
 
@@ -17,6 +17,7 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: #118297;
 }
 
 #logo img {
@@ -31,7 +32,7 @@ body {
   background-attachment: fixed;  
   height: 90%;
   -webkit-background-size: cover;
-  background-color: grey; 
+  background-color: #118297; 
 }
 
 
@@ -49,7 +50,7 @@ body {
 
 #blurb {
   height: 60vh;
-  background: white;
+  background-color: #118297;
   text-align: center;
   font-size: 2em;
   max-width: 1050px;
@@ -69,7 +70,7 @@ body {
 
 #team {
   height: 200vh;
-  background: #001146;
+  background: #222;
   color: white;
   text-align: center;
   padding-top: 3%;
@@ -123,6 +124,21 @@ body {
 }
 
 #avijit h4 {
+  text-align: left;
+  padding-left: 2%;
+}
+
+.steve {
+  padding-left: 5%;
+}
+
+#steve img {
+  max-width: 45%;
+  padding-left: 5%;
+  float: left;
+}
+
+#steve h4 {
   text-align: left;
   padding-left: 2%;
 }
